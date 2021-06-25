@@ -31,3 +31,33 @@ print(profile["name"])
 
 profile["gender"] = "male"
 print(profile)
+
+for i in range(10):
+    if i%2==0:
+        print("{} is even.".format(i))
+    else:
+        print("{} is odd.".format(i))
+
+
+score = 80
+if score > 78:
+    print("ok")
+else:
+    print("bad")
+
+score = 100
+if score == 100:
+    print("full")
+elif score > 85:
+    print("ok")
+else:
+    print("bad")
+
+
+
+for i in ["apple", "banana", "lemon"]:
+    print(i)
+
+
+for i in range(10):
+    print(i)

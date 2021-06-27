@@ -61,3 +61,14 @@ for i in ["apple", "banana", "lemon"]:
 
 for i in range(10):
     print(i)
+
+
+data = [20,40,60,80]
+for d in data:
+    print(d)
+
+
+sum_d = 0
+for d in data:
+    sum_d += d
+print(sum_d)

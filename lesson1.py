@@ -72,3 +72,26 @@ sum_d = 0
 for d in data:
     sum_d += d
 print(sum_d)
+
+
+sum_d = 0
+
+for d in data:
+    sum_d += d
+else:
+    print(sum_d)
+
+
+for i in range(10):
+    if i == 3:
+        continue
+    print(i)
+
+
+for i in range(10):
+    if i == 3:
+       break
+    print(i)
+
+
+print(list(range(101)))

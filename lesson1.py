@@ -98,4 +98,5 @@ print(list(range(101)))
 
 data = {"tani": 21, "kazu": 22, "python": 100}
 for key, value in data.items():
+    
      print("key: {} value: {}".format(key, value))

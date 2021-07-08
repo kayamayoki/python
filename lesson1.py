@@ -99,3 +99,10 @@ print(list(range(101)))
 data = {"tani": 21, "kazu": 22, "python": 100}
 for key, value in data.items():
      print("key: {} value: {}".format(key, value))
+
+
+     for i in range(10):
+        if i%2==0:
+        print("{} is even.".format(i))
+        else:
+        print("{} is odd.".format(i))
